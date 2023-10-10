@@ -1,0 +1,11 @@
+body {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

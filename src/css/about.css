@@ -1,0 +1,143 @@
+.about-us {
+  /* background: #1c2225;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+  height: auto; */
+}
+
+.container-about {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+
+.title-about {
+  width: auto;
+  height: auto;
+  color: #fcf9f9;
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
+}
+
+.paragraph {
+  font-family: Manrope;
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.04em;
+  margin-bottom: 20px;
+  height: auto;
+}
+
+.paragraph-two {
+  font-family: Manrope;
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.04em;
+  width: 100%;
+  height: auto;
+}
+
+.about-image {
+  border-radius: 4px;
+}
+
+.about-us {
+  background-image: url(../img/about/elements.png);
+  padding-bottom: 80px;
+  background-position: right bottom 18px;
+  background-repeat: no-repeat;
+}
+
+/*===========PHONE==================*/
+@media screen and (min-width: 375px) {
+  /* .title-about {
+    width: 131px;
+    height: 44px;
+  }
+
+  .paragraph {
+    width: 335px;
+    height: 95px;
+  }
+
+  .paragraph-two {
+    width: 335px;
+    height: 209px;
+  } */
+}
+/*===============TABLET================*/
+
+@media screen and (min-width: 768px) {
+  .title-about {
+    color: #fcf9f9;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 1.45;
+    letter-spacing: -0.03em;
+    width: 180px;
+    height: 64px;
+  }
+  .paragraph {
+    color: rgba(252, 249, 249, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.64px;
+    width: 704px;
+    height: 66px;
+  }
+  .paragraph-two {
+    color: rgba(252, 249, 249, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.64px;
+    width: 704px;
+    height: 132px;
+  }
+  .about-us {
+    background-image: url(../img/about/elements-tablet.png);
+    padding-bottom: 80px;
+    background-position: right bottom 18px;
+    background-repeat: no-repeat;
+  }
+}
+
+/*==========DESKTOP==============*/
+@media screen and (min-width: 1280px) {
+  .container-about {
+    padding-top: 70px;
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .paragraph {
+    color: rgba(252, 249, 249, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    width: 436px;
+    height: 110px;
+  }
+  .paragraph-two {
+    color: rgba(252, 249, 249, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    width: 436px;
+    height: 220px;
+  }
+}

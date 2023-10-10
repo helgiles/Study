@@ -1,0 +1,67 @@
+<!-- ORDER -->
+
+<section class="section-order">
+  <div class="background-image-order"></div>
+  <div class="container-form">
+    <div class="container-all">
+      <form class="order-form" id="section-order">
+        <h3 class="text-order">
+          <span class="start-text">Your order</span> is our priority:
+          Personalized approach and quality of service
+        </h3>
+        <input
+          class="input-for-order"
+          type="text"
+          name="user-name"
+          pattern="[a-zA-Zа-яА-Яі-Ії-Їє-Єґ-Ґ']+"
+          title="Maksym Novikov"
+          placeholder="Enter your full name"
+          required
+        />
+        <input
+          class="input-for-order"
+          type="email"
+          name="user_email"
+          pattern="[a-zA-Zа-яА@.]+"
+          title="your.mail@gmail.com"
+          placeholder="Enter your email"
+          required
+        />
+        <textarea
+          class="comment-for-order"
+          name="user-comment"
+          placeholder="Comments"
+        ></textarea>
+
+        <button class="button-order" type="submit">
+          Send
+          <svg
+            class="icon-order-button"
+            width="24"
+            height="19"
+            aria-label="icon-send-order"
+          >
+            <use href="/icons/icons-sprite.svg#icon-arrow"></use>
+          </svg>
+        </button>
+      </form>
+
+      <div class="footer-order">
+        <img
+          srcset="
+            ./img/order/Image-1-tab.jpg      638w,
+            ./img/order/Image-1-tab-2x.jpg  1276w,
+            ./img/order/Image-1-1280.jpg     524w,
+            ./img/order/Image-1-1280-2x.jpg 1048w
+          "
+          sizes="(min-width: 1280px) 524px, (min-width: 768px) 638px "
+          src="./img/order/Image-1-tab.jpg"
+          alt="our production"
+          width="638"
+          height="521"
+          class="photo-production-order"
+        />
+      </div>
+    </div>
+  </div>
+</section>

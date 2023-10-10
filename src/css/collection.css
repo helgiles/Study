@@ -1,0 +1,120 @@
+.section-collection {
+  padding-top: 18px;
+  padding-bottom: 80px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.collection {
+  background-image: url(../img/collection/ornament.png);
+
+  background-position: left top 200px;
+  background-repeat: no-repeat;
+}
+
+.our-collection {
+  color: var(--white-color);
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: -1.32px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.img-collection {
+  width: 100%;
+  height: 100%;
+}
+
+.list-vyshyvanka {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.list-item-collection {
+  margin: 0;
+  width: 100%;
+}
+
+.img-item {
+  width: 335px;
+  height: 400px;
+}
+
+.text-model-vyshyvanka {
+  overflow: hidden;
+  color: var(--white-color);
+  text-overflow: ellipsis;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.price-vyshyvanka {
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.7px;
+  margin-top: 8px;
+}
+
+/* MOBILE */
+
+@media screen and (min-width: 768px) {
+  .section-collection {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .collection {
+    background-position: left top 270px;
+  }
+
+  .img-item {
+    width: 342px;
+    height: 430px;
+  }
+
+  .list-vyshyvanka {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .list-item-collection {
+    width: 342px;
+    height: 492px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .section-collection {
+    padding-top: 70px;
+    padding-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .list-item-collection {
+    width: calc((100% - 20 * 4) / 6);
+    height: 492px;
+  }
+
+  .img-item {
+    height: 347px;
+    height: 430px;
+  }
+
+  .list-vyshyvanka {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+  }
+}
